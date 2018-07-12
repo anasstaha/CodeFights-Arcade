@@ -1,16 +1,22 @@
-Write a function that returns the sum of two numbers.
+Given the string, check if it is a palindrome.
 
 __Example__
 
-For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3.
+For inputString = "aabaa", the output should be checkPalindrome(inputString) = true;
+For inputString = "abac", the output should be checkPalindrome(inputString) = false;
+For inputString = "a", the output should be checkPalindrome(inputString) = true.
 
 __Input/Output__
-* __[time limit] 4 seconds (py3)__
-* __[input] integer param1__
-  + Guaranteed constraints:
-  + -100 ≤ param1 ≤ 1000.
-* __[input] integer param2__
-  + Guaranteed constraints:
-  + -100 ≤ param2 ≤ 1000.
-* __[output] integer__
-  + The sum of the two inputs.
+
+* __[execution time limit] 4 seconds (py3)__
+
+* __[input] string inputString__
+
+    * A non-empty string consisting of lowercase characters.
+
+    * Guaranteed constraints:
+    * 1 ≤ inputString.length ≤ 105.
+
+* __[output] boolean__
+
+     * true if inputString is a palindrome, false otherwise.
